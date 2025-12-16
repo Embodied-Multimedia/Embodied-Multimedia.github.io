@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561c4935-83cf-482e-8aee-7e77f4f4c5d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/Jing Liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Leung.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Lulu Guo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Minghao_Zou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/chunlin chen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hong chen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/jiangchuan Liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/peng sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yang liu.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Mengyanda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Wuhan_University_Sakura_Castle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/cchen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/fuhuazhu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hanjungong.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/huang bo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/limingchen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/qinkai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wangm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yalinzheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yangguang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yue-3538096-small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/zhanglichi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/zhaoyitian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +35,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="settings.editor.selected.configurable" value="ssh.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\Embodied-Multimedia.github.io\assets\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +53,7 @@
       <updated>1765905958848</updated>
       <workItem from="1765905960160" duration="1330000" />
       <workItem from="1765907377056" duration="3275000" />
+      <workItem from="1765921106936" duration="3723000" />
     </task>
     <servers />
   </component>
