@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="561c4935-83cf-482e-8aee-7e77f4f4c5d2" name="Changes" comment="" />
+    <list default="true" id="561c4935-83cf-482e-8aee-7e77f4f4c5d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Mengyanda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Wuhan_University_Sakura_Castle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fuhuazhu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hanjungong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/huang bo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/limingchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qinkai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wangm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yalinzheng.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yangguang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yue-3538096-small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/zhanglichi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/zhaoyitian.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765905958848</updated>
       <workItem from="1765905960160" duration="1330000" />
-      <workItem from="1765907377056" duration="1399000" />
+      <workItem from="1765907377056" duration="3275000" />
     </task>
     <servers />
   </component>
