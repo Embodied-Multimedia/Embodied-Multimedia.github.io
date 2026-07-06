@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +31,7 @@
                 element.style.display='none'
             } else if (currentWidth >= 1024) {
                 // 如果窗口宽度大于或等于最小宽度且元素不存在，则添加元素
-              
+
                 element.style.display='flex'
             }
         }
@@ -89,11 +88,11 @@
             border-radius: 8px;
         }
         .avatar1 {
-            object-fit: cover; 
+            object-fit: cover;
             object-position: center 20%;
         }
         .avatar2 {
-            object-fit: cover; 
+            object-fit: cover;
             object-position: center 20%;
         }
         .avatar3 {
@@ -109,13 +108,13 @@
             object-position: center 20%;
         }
         .avatar6 {
-            object-fit: cover; 
+            object-fit: cover;
             object-position: center 15%;
         }
         .image-container img {
-            width: 50%; 
+            width: 50%;
             /* height: 100%;  */
-            object-fit: contain; 
+            object-fit: contain;
         }
         .navlogo {
             width: 10%;
@@ -123,12 +122,12 @@
         #logo-nav-bar {
             width: 100%;
         }
-        
-       
-        
-        
+
+
+
+
         /* .image-container::after {
-            content: ""; 
+            content: "";
             display: block;
             width: 12rem;
             height: 1px;
@@ -177,7 +176,7 @@
         }
         @media (max-width: 1024px){
             .navlogo{
-                display: grid; 
+                display: grid;
                 width: 100%;
                 grid-template-columns: 1fr 3fr;
             }
@@ -199,26 +198,26 @@
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         background-color: white !important;
     }
-    
+
     .nav-link {
         color: #2C3E50 !important;
         transition: all 0.3s ease;
     }
-    
+
     .nav-link:hover {
         background-color: #006699 !important;
         color: white !important;
         border-radius: 5px;
     }
-    
+
     .navbar-toggler {
         background-color: #006699 !important;
     }
-    
+
     .navbar-toggler:hover {
         background-color: #004d73 !important;
     }
-    
+
     /* 移除原来的bg-secondary类的背景色 */
     .bg-secondary {
         background-color: transparent !important;
@@ -228,14 +227,14 @@
         background: linear-gradient(to right, #f8f9fa, #ffffff, #f8f9fa) !important;
         border-bottom: 1px solid rgba(0,0,0,0.05);
     }
-    
+
     .nav-link {
         color: #2C3E50 !important;
         transition: all 0.3s ease;
         position: relative;
         font-weight: 500;
     }
-    
+
     .nav-link:hover {
         background-color: #006699 !important;
         color: white !important;
@@ -243,7 +242,7 @@
         transform: translateY(-1px);
         box-shadow: 0 2px 4px rgba(0,102,153,0.2);
     }
-    
+
     .nav-link::after {
         content: '';
         position: absolute;
@@ -254,50 +253,50 @@
         background-color: #006699;
         transition: all 0.3s ease;
     }
-    
+
     .nav-link:hover::after {
         width: 100%;
         left: 0;
     }
-    
+
     .navbar-toggler {
         background-color: #006699 !important;
         border: none;
         padding: 0.5rem 1rem;
         transition: all 0.3s ease;
     }
-    
+
     .navbar-toggler:hover {
         background-color: #004d73 !important;
         transform: translateY(-1px);
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
-    
+
     /* 移除原来的bg-secondary类的背景色 */
     .bg-secondary {
         background-color: transparent !important;
     }
-    
+
     /* 添加一些微妙的动画效果 */
     .navbar-nav {
         transition: all 0.3s ease;
     }
-    
+
     .navbar-nav:hover .nav-link:not(:hover) {
         opacity: 0.8;
     }
-    
+
     /* 响应式调整 */
     @media (max-width: 992px) {
         .navbar {
             background: #ffffff !important;
         }
-        
+
         .nav-link {
             padding: 0.5rem 1rem !important;
             margin: 0.2rem 0;
         }
-        
+
         .nav-link:hover {
             transform: none;
         }
@@ -311,7 +310,135 @@
         letter-spacing: 0.5px;  /* 增加字母间距，提高可读性 */
     }
 
-    
+
+
+    /* Presentations section */
+    .presentation-card {
+        border: none;
+        border-left: 5px solid #006699;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+        background-color: #ffffff;
+    }
+
+    .presentation-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    }
+
+    .presentation-card .card-title {
+        color: #2C3E50;
+        line-height: 1.35;
+    }
+
+    .presentation-type {
+        display: inline-block;
+        background-color: #006699;
+        color: #ffffff;
+        border-radius: 20px;
+        padding: 0.35rem 0.75rem;
+        font-weight: 700;
+        margin-right: 0.75rem;
+    }
+
+    .presentation-time {
+        color: #6c757d;
+        font-weight: 600;
+    }
+
+    .presentation-abstract {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: #5f6b7a;
+        text-align: justify;
+    }
+
+    .presentation-authors {
+        font-size: 1rem;
+        line-height: 1.65;
+        color: #6c757d;
+    }
+
+
+
+    /* Navigation tuning after adding Presentations */
+    #mainNav .container {
+        max-width: none !important;
+        width: auto !important;
+        margin-left: 10rem !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+        padding-right: 1rem !important;
+    }
+
+    #mainNav .navbar-collapse {
+        justify-content: flex-start !important;
+    }
+
+    #mainNav .navbar-nav {
+        flex-wrap: nowrap !important;
+        align-items: center;
+        justify-content: flex-start !important;
+        width: auto;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    #mainNav .nav-item {
+        margin-left: 0.22rem !important;
+        margin-right: 0.22rem !important;
+    }
+
+    #mainNav .nav-link {
+        white-space: nowrap;
+        font-size: 1.05rem !important;
+        letter-spacing: 0.35px !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+
+    @media (min-width: 992px) and (max-width: 1350px) {
+        #mainNav .container {
+            margin-left: 1rem !important;
+            padding-right: 0.5rem !important;
+        }
+
+        #mainNav .nav-item {
+            margin-left: 0.12rem !important;
+            margin-right: 0.12rem !important;
+        }
+
+        #mainNav .nav-link {
+            font-size: 0.95rem !important;
+            letter-spacing: 0.1px !important;
+            padding-left: 0.5rem !important;
+            padding-right: 0.5rem !important;
+        }
+
+        .navlogo {
+            width: 8%;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        #mainNav .container {
+            width: 100% !important;
+            margin-left: 0 !important;
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+
+        #mainNav .navbar-nav {
+            flex-wrap: wrap !important;
+            align-items: flex-start;
+        }
+
+        #mainNav .nav-link {
+            white-space: normal;
+            font-size: 1rem !important;
+        }
+    }
 
     </style>
 </head>
@@ -324,7 +451,7 @@
     <div class="navlogo">
         <div class="buttonstyle">
             <button
-            style="background-color: #004d73 !important;"   
+            style="background-color: #004d73 !important;"
             class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -350,15 +477,19 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#speakers">Keynotes</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#GeneralChairs">Organizers</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#ProgramCommittee">Program Committee</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#GeneralChairs">Organizers</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#presentations">Presentations</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 
     <!-- Masthead -->
     <header style="background-color: rgb(255, 255, 255) !important;width: 100vw;" class="masthead bg-primary text-white text-center div-background">
@@ -375,7 +506,7 @@
             <p class="masthead-subheading font-weight-light mb-0">
                 Co-located with the IEEE International Conference on Multimedia and Expo 2026
                 <br/>
-                6 July - 10 July 2026, Bangkok, Thailand
+                5 July - 9 July 2026, Bangkok, Thailand
                 <br />
             </p>
             <!-- <div style="padding-bottom: 5rem;"> -->
@@ -512,7 +643,7 @@
                 <br>
                 <li>Workshop paper camera-ready: <b>15 May 2026</b></li>
                 <br>
-                <li>Workshop date: <b>10 July 2026</b></li>
+                <li>Workshop date: <b>9 July 2026</b></li>
                 <br>                
             </ul>
 
@@ -568,36 +699,109 @@
         <div class="container">
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Keynote Speakers</h2>
             
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <div class="keynote-placeholder">
-                        <i class="fas fa-user-circle fa-5x mb-3" style="color: #666;"></i>
-                        <h3 class="text-secondary mb-4">Keynote Speakers</h3>
-                        <p class="lead">To be Confirmed...</p>
-                    </div>
-                </div>
-            </div>
-    
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-lg-8 text-center">-->
+<!--                    <div class="keynote-placeholder">-->
+<!--                        <i class="fas fa-user-circle fa-5x mb-3" style="color: #666;"></i>-->
+<!--                        <h3 class="text-secondary mb-4">Keynote Speakers</h3>-->
+<!--                        <p class="lead">To be Confirmed...</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
             <!-- 当确认了演讲者后，可以使用下面的模板 -->
-            <!--
-            <div class="row">
-                <div class="col-md-6 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <img class="rounded-circle mb-3" src="path_to_speaker_image.jpg" alt="Speaker Name" 
-                                 style="width: 200px; height: 200px; object-fit: cover;">
-                            <h4 class="card-title">Speaker Name</h4>
-                            <p class="text-secondary">Position</p>
-                            <p class="text-secondary">Institution</p>
-                            <p class="lead">Brief biography and research interests...</p>
-                            <p class="font-weight-bold mt-3">Keynote Title: TBA</p>
-                        </div>
-                    </div>
+           <div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-9 mb-5">
+        <div class="card h-100" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+            <div class="card-body p-4 p-md-5">
+
+                <!-- Speaker Photo and Name -->
+                <div class="text-center mb-4">
+                    <img class="rounded-circle mb-3"
+                         src="assets/img/xinjin.jpg"
+                         alt="Xin Jin"
+                         style="width: 220px; height: 220px; object-fit: cover;">
+
+                    <h3 class="card-title mb-2" style="font-weight: 700;">Xin Jin</h3>
                 </div>
+
+                <!-- Keynote Title -->
+                <div class="mb-4">
+                    <h5 class="text-uppercase"
+                        style="font-weight: 700; color: #006699; border-left: 5px solid #006699; padding-left: 12px;">
+                        Keynote Title
+                    </h5>
+                    <p class="lead mb-0" style="font-weight: 600; line-height: 1.7;">
+                        Build and Leverage World Model in the Latent Representation Space
+                    </p>
+                </div>
+
+                <!-- Abstract -->
+                <div class="mb-4">
+                    <h5 class="text-uppercase"
+                        style="font-weight: 700; color: #006699; border-left: 5px solid #006699; padding-left: 12px;">
+                        Abstract
+                    </h5>
+                    <p class="lead text-justify mb-0" style="line-height: 1.75;">
+                        World model is becoming a core technological paradigm connecting the digital and physical worlds.
+                        Their value lies in endowing intelligent agents with the ability to understand, reason, and interact
+                        in space, enabling machines to truly "enter" the physical world. This report will systematically
+                        outline the complete technological chain of spatial intelligence from 3D perception and world model
+                        construction to embodied task execution, and highlight the team's representative work in this field:
+                        the UniScene unified generation framework for autonomous driving and robotic scenarios; the DreamVLA
+                        model, which introduces world models into the VLA architecture to enhance long-range reasoning and
+                        action prediction capabilities through "world representation embedding"; benchmark datasets such as
+                        InterVLA &amp; SceneScribe-1M, filling the gaps in embodied interaction data and spatial geometric video
+                        scene data from the first-person perspective; the DeFI framework, which solves the forward-backward
+                        dynamics model learning process; and VLA-JEPA, which endows VLA models with efficient reasoning
+                        capabilities from the latent space level, etc.
+                    </p>
+                </div>
+
+                <!-- Biography -->
+                <div>
+                    <h5 class="text-uppercase"
+                        style="font-weight: 700; color: #006699; border-left: 5px solid #006699; padding-left: 12px;">
+                        Biography
+                    </h5>
+
+                    <p class="lead text-justify" style="line-height: 1.75;">
+                        Xin Jin received his PhD degree from the University of Science and Technology of China (USTC).
+                        He is currently an Assistant Professor at the Eastern Institute of Technology, Ningbo, China.
+                        He was a visiting scholar at the Learning and Vision Lab of the National University of Singapore
+                        (NUS) from 2021 to 2022.
+                    </p>
+
+                    <p class="lead text-justify" style="line-height: 1.75;">
+                        He has received several academic awards, including 2024 VSPC Rising Star, 2026 MSA TC Best Paper
+                        Award, the ACM SIGAI China Doctoral Dissertation Award, the Chinese Academy of Sciences President's
+                        Scholarship—Special Award, and the “Rising Star of Microsoft Research Asia” title. He has published
+                        over 40 papers in top-tier conferences and journals, including CVPR, ICCV, ECCV, NeurIPS, ACM MM,
+                        ICIP, ICME, ISCAS, VCIP, TIP, TMM, TCSVT, and Pattern Recognition, with nearly 9,000 Google Scholar
+                        citations. He was recognized as one of the top 2% of scientists worldwide by Stanford University in
+                        2024&amp;2025.
+                    </p>
+
+                    <p class="lead text-justify mb-0" style="line-height: 1.75;">
+                        He has actively contributed to international and domestic standardization efforts in image/video
+                        compression, such as MPEG VCM and China DCM (Data Coding for Machine). He has organized multiple
+                        tutorials and special sessions at major conferences, including CVPR 2024, ECCV 2024, VCIP 2024,
+                        and ICME 2025, focusing on generative AI, diffusion models, and visual disentanglement. He also
+                        served as a session chair at ICIP 2024. In CVPR 2024, ECCV 2024, ICCV 2025, he organized tutorial
+                        sessions and workshop related to “Visual Representation Learning of Disentanglement and
+                        Compositionality”. In VCIP 2024, he also built up a special session about “Generative AI for
+                        Image/Video Coding”.
+                    </p>
+                </div>
+
             </div>
-            -->
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
+
 
     <section class="page-section bg-transparent mb-0" id="GeneralChairs">
         <div class="container">
@@ -778,6 +982,132 @@
                     <li><b>Dingkang Yang, Fudan University.</b></li>
                     <li><b>Min Zhou, Tongji University.</b></li>
         </ul>
+
+            <section class="page-section portfolio bg-light" id="presentations">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Presentations</h2>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Private Speech Classification without Collapse: Stabilized DP Training and Offline Distillation</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 2:00 pm - Jul 9 2:15 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">We study example-level private supervised speech classification under a practical release constraint: training may access privileged side information, but the released model must be audio-only. This setting is important because speech systems can often exploit richer side...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Yadi Wen (Taiyuan University of Technology); Enji Liang (Taiyuan University of Technology); Rong DU (Taiyuan University of Technology); Yue Fu (Taiyuan University of Technology); Tianxin li (University of Michigan, Ann Arbor)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">PrivGPS for Wearables: I Emerge from Fog with a Twinkle</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 2:15 pm - Jul 9 2:30 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Wearable AI and voice-first companions often require continuous location access, increasing point and trajectory privacy risks. We present Twinkle GPS, a practical GI-based framework that pairs an always-on low-precision baseline with intent-triggered high-utility bursts, adds a...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Yadi Wen (Taiyuan University of Technology); Rong DU (Taiyuan University of Technology); Enji Liang (Taiyuan University of Technology); Yue Fu (Taiyuan University of Technology); Tianxin li (University of Michigan, Ann Arbor)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Centralized Task Planning with LLMs for Robust Human-Robot Collaboration</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 2:30 pm - Jul 9 2:45 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Human-robot collaboration (HRC) in shared environments remains challenging due to partial observability, dynamic changes, and unpredictable human behavior, which often lead to inconsistent task understanding and redundant or conflicting actions among agents. Effective...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Shao-Ting Hsu (National Yang Ming Chiao Tung University); Chao-Chi Liao (National Yang Ming Chiao Tung University); Yu-chee Tseng (National Yang Ming Chiao Tung University); Cheng-Kuan Lin (National Yang Ming Chiao Tung University)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">HR-LLM: Hierarchical Reasoning and Dynamic Iteration with Large Language Models for Real-Time Behavior Goal Prediction</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 2:45 pm - Jul 9 3:00 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Abstract—Predicting a user’s interaction target early and accurately is critical for responsive AR telepresence systems, where participants are located in heterogeneous physical spaces. Earlier approaches mainly rely on rules, geometric cues, or motion patterns, and often struggle to...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Yudeng Xin (University of Melbourne); Ziqi Chen (School of Computer Science and Technology, Xi’an Jiaotong Un...); Zhiwen Wang (School of Computer Science and Technology, Xi’an Jiaotong Un...)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Emotion Recognition from EEG Signals using Wavelet Graph Convolutions and Nash Bargaining-based Feature Fusion</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 3:00 pm - Jul 9 3:15 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Emotion recognition from psychological signals including electroencephalogram (EEG) has garnered significant attention due to its potential to enable intelligent and adaptative human-computer interaction. However, the non-Euclidean structure, high dimensionality, and noise...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Asfak Ali (Jadavpur University); Jotiraditya Banerjee (Jadavpur University); Rajdeep Pal (St Thomas’ College of Engineering and Technology); Vyacheslav Gulvanskii (Saint Petersburg Electrotechnical University); Dmitrii Kaplun (Saint Petersburg Electrotechnical University); Ram Sarkar (Jadavpur University)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Leveraging Pre-Trained Models for SDWN-Enabled Semantic Communication System</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 3:15 pm - Jul 9 3:30 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">As wireless networks carry more multimedia traffic, conventional bit-centric transmission limits task-oriented efficiency. Semantic communication sends task-relevant meaning instead of raw bits, but end-to-end designs are often task-specific and costly to retrain. We build semantic...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Xiaoxiong Yang (University of Electronic Science and Technology of China, Na...); Zhihao Wang (University of Electronic Science and Technology of China); Dingde Jiang (University of Electronic Science and Technology of China); Zhilan Lyu (Xidian University)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Uncertainty-Guided Sparse Refinement for Action Chunking Transformer Policies</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Oral</span>
+                                <span class="presentation-time">Jul 9 3:30 pm - Jul 9 3:45 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Learning chunk-based visuomotor policies for long-horizon robot manipulation remains challenging. Recent action-chunking methods have shown promising performance by predicting temporally extended action sequences. However, their failures are often dominated...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Chenyang Wang (Soochow University); Yuntian Wang (Soochow University); Xiaoxiong Yang (University of Electronic Science and Technology of China, Na...); Dingde Jiang (University of Electronic Science and Technology of China); Siao Liu (Soochow University); Yang Liu (Tongji University)</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Enhancing Vision and Language Navigation via Cross-modal Graph Representation with Multi-Scale Alignment</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Poster</span>
+                                <span class="presentation-time">Jul 9 3:45 pm - Jul 9 4:00 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Vision-and-Language Navigation (VLN) requires an agent to both interpret linguistic instructions and visual scenes, and to analyze their cross-modal semantic relationships for accurate decision-making. Most existing methods rely on heterogeneous multimodal feature...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Zihao Dong (University of Jinan); Hao Wan (University of Jinan); Caiyun Huang (University of Jinan); Runmin Cong (Shandong University); Xiuli Shao (Nankai University)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card h-100 presentation-card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Embodied Multimedia: A Tutorial</h4>
+                            <p class="mb-3">
+                                <span class="presentation-type">Poster</span>
+                                <span class="presentation-time">Jul 9 4:00 pm - Jul 9 4:15 pm</span>
+                            </p>
+                            <p class="presentation-abstract mb-3">Traditional multimedia technology has been built around optimizing content delivery for human observers, from perceptually driven compression standards to human-centric quality metrics. With the rapid rise of embodied intelligence, autonomous agents must perceive,...</p>
+                            <p class="presentation-authors mb-0"><b>Authors:</b> Yang Liu (Tongji University); Wei Zuo (Fudan University); Guanwei Zhao (Tongji University); Juncen Guo (Fudan University); Jiangchuan Liu (Simon Fraser University, Canada); Abdulmotaleb El Saddik (University-of-Ottawa); Liang Song (Fudan University)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!--
             <br>

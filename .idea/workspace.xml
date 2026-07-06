@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561c4935-83cf-482e-8aee-7e77f4f4c5d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/xinjin.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -12,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="36w7ovrIrhErPonAKHWbQ3xcqPn" />
   <component name="ProjectLevelVcsManager">
@@ -51,7 +60,9 @@
       <workItem from="1774168474003" duration="51000" />
       <workItem from="1774168535501" duration="1003000" />
       <workItem from="1774189894403" duration="240000" />
-      <workItem from="1778912635595" duration="170000" />
+      <workItem from="1778912635595" duration="427000" />
+      <workItem from="1783340218108" duration="880000" />
+      <workItem from="1783350015256" duration="3091000" />
     </task>
     <servers />
   </component>
